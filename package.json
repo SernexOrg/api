@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow/tfjs-node": "^3.11.0",
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "canvas": "^2.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jpeg-js": "^0.4.3",
+    "multer": "^1.4.3",
+    "nsfwjs": "^2.4.1",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.9.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.1",
+    "@types/express": "^4.17.13",
+    "@types/multer": "^1.4.7"
+  }
+}
