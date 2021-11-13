@@ -4,4 +4,4 @@ COPY package.json .
 RUN npm install
 Add . /usr 
 CMD [ "npm", "start" ]
-EXPOSE 7001
+EXPOSE 3000
